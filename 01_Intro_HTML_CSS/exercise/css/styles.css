@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #caf4ff;
+  }
+  
+  h1 {
+    color: rgb(35, 149, 255);
+    text-align: center;
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  blockquote {
+      font-style: italic;
+  }
