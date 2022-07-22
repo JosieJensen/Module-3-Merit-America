@@ -1,6 +1,6 @@
 const shoppingList = document.querySelector('.shopping-list');
 // add pageTitle
-let pageTitle = 'My Shopping List';
+let pageTitle = '';
 // add groceries
 let groceries = ['Milk', 'Eggs', 'Fruit', 'Juice', 'Bread', 'Ceral', 'Chips', 'Meat', 'Vegetables', 'Nuts'];
 /**
@@ -8,6 +8,7 @@ let groceries = ['Milk', 'Eggs', 'Fruit', 'Juice', 'Bread', 'Ceral', 'Chips', 'M
  * of the pageTitle variable that was set above.
  */
 function setPageTitle() {
+  pageTitle = 'My Shopping List';
   title.innerText = pageTitle;
   shoppingList.appendChild(title);
 }
