@@ -3,16 +3,16 @@ const shoppingList = document.querySelector('.shopping-list');
 let pageTitle = 'My Shopping List';
 // add groceries
 let groceries = [
-  {id: 1, task: 'Milk'}, 
-  {id: 1, task: 'Eggs'}, 
-  {id: 1, task: 'Fruit'}, 
-  {id: 1, task: 'Juice'}, 
-  {id: 1, task: 'Bread'}, 
-  {id: 1, task: 'Ceral'}, 
-  {id: 1, task: 'Chips'}, 
-  {id: 1, task: 'Meat'}, 
-  {id: 1, task: 'Vegetables'}, 
-  {id: 1, task: 'Nuts'}
+  'Milk', 
+  'Eggs', 
+  'Fruit', 
+  'Juice', 
+  'Bread', 
+  'Ceral', 
+  'Chips', 
+  'Meat', 
+  'Vegetables', 
+  'Nuts'
 ];
 /**
  * This function will get a reference to the title and set its text to the value
@@ -33,7 +33,7 @@ function displayGroceries() {
 
   groceries.forEach(item => {
     const li = document.createElement('li')
-    li.innerText = item.task
+    li.innerText = item
     ul.appendChild(li)
   });
 }
