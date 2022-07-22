@@ -2,18 +2,7 @@ const shoppingList = document.querySelector('.shopping-list');
 // add pageTitle
 let pageTitle = 'My Shopping List';
 // add groceries
-let groceries = [
-  'Milk', 
-  'Eggs', 
-  'Fruit', 
-  'Juice', 
-  'Bread', 
-  'Ceral', 
-  'Chips', 
-  'Meat', 
-  'Vegetables', 
-  'Nuts'
-];
+let groceries = ['Milk', 'Eggs', 'Fruit', 'Juice', 'Bread', 'Ceral', 'Chips', 'Meat', 'Vegetables', 'Nuts'];
 /**
  * This function will get a reference to the title and set its text to the value
  * of the pageTitle variable that was set above.
@@ -27,7 +16,6 @@ function setPageTitle() {
  * This function will loop over the array of groceries that was set above and add them to the DOM.
  */
 function displayGroceries() {
-  
   const ul = document.getElementById('groceries');
   shoppingList.appendChild(ul);
 
