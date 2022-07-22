@@ -2,17 +2,7 @@ const shoppingList = document.querySelector('.shopping-list');
 // add pageTitle
 let pageTitle = 'My Shopping List';
 // add groceries
-let groceries = [
-{id: 1, task: 'Milk', completed: false},
-{id: 2, task: 'Eggs', completed: false},
-{id: 3, task: 'Fruit', completed: false},
-{id: 4, task: 'Juice', completed: false},
-{id: 5, task: 'Bread', completed: false},
-{id: 6, task: 'Cereal', completed: false},
-{id: 7, task: 'Chips', completed: false},
-{id: 8, task: 'Meat', completed: false},
-{id: 9, task: 'Vegetables', completed: false},
-{id: 10, task: 'Nuts', completed: false}];
+let groceries = ['Milk', 'Eggs', 'Fruit', 'Juice', 'Bread', 'Ceral', 'Chips', 'Meat', 'Vegetables', 'Nuts'];
 /**
  * This function will get a reference to the title and set its text to the value
  * of the pageTitle variable that was set above.
